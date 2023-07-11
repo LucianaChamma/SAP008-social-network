@@ -8,16 +8,20 @@ export default () => {
     <section class = "container-form"
     <form class = "form-login flex-direction">
       <p id="msgErro"></p>
-  
       <input type="email" placeholder="seu@email.com" class="email-area" id="email" name="email-area" requered>
       <input type="password" placeholder="Senha" class="pwd-area" id="password" name="password-area" requered>
-      <button class="btn-sign-in font-size" id="btn-sign-in">Entrar</button>
-      <button class="btn-recover-password font-size" id="btn-recover-password">Esqueci minha senha</button> 
     </form>
+
+    <section class="botao-entrar">
+    <button class=""btn-sign-in" font-size" id="btn-sign-in">Entrar</button>
+    <button class="btn-recover-password font-size" id="btn-recover-password">Esqueci minha senha</button> 
+    </section>
+
     <p class="error text-center font-size" id="user-error"></p> 
       <p class="error text-center font-size" id = "user-error-gmail"></p>
-      <p class="our text-center font-size">- ou -</p>
+     
       <section class="section-login-google flex-direction">
+      <p class="our text-center font-size">- ou -</p>
         <button class="btn-google text-center font-size" id="btn-google"><img src="" alt="btn-google" class="">Sign in with Google</button>
       </section>
       <p class="font-size text-center">

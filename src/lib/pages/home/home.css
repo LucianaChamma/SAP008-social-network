@@ -19,6 +19,8 @@ img{
 
 .container-form{
   /* background-color:aqua; */
+display: flex;
+flex-wrap: wrap;
 }
 
 .header-desktop{
@@ -76,4 +78,15 @@ a:link {
 
 #click-register:hover {
   text-decoration: underline;
+}
+
+.btn-sign-in {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px; /* Ajuste a margem esquerda conforme necessário */
+}
+
+.btn-recover-password {
+  display: block;
+  margin-top: 10px;
 }
