@@ -5,7 +5,7 @@ export default () => {
   const template = `
   <section class = "container">
     <figure class= "gif">
-    <img src = "https://i.gifer.com/70zF.gif" alt ="Kiss">
+    <img src = "https://i.gifer.com/6mD4.gif" alt ="Kiss">
     </figure>
     <section class = "container-form"
     <form class = "form-login flex-direction">
