@@ -13,9 +13,20 @@
   flex-direction: column;
 }
 
-img{
-  width: 80%;
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  pa
 }
+
+
+/* 
+
+img{
+  width: 60%;
+} */
 
 .container-form{
   /* background-color:aqua; */

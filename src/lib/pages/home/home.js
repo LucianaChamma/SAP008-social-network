@@ -4,7 +4,9 @@ export default () => {
   const container = document.createElement('div');
   const template = `
   <section class = "container">
-    <img src = "./imagem/logo.png" alt ="logo">
+    <figure class= "gif">
+    <img src = "https://i.gifer.com/70zF.gif" alt ="Kiss">
+    </figure>
     <section class = "container-form"
     <form class = "form-login flex-direction">
       <p id="msgErro"></p>
