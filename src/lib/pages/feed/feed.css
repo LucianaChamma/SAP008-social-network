@@ -7,6 +7,15 @@ body {
 background-color: #331E38;
 }
 
+.moldura {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 10px solid #000000;
+}
+
 .container-feed {
   padding: 20px;
   position: relative;
@@ -75,6 +84,8 @@ h1 {
   cursor: pointer;
   border-radius: 10px;
 }
+
+/*   
 
 /*   
 

@@ -12,11 +12,16 @@ export default () => {
       <input type="password" placeholder="Senha" class="pwd-area" id="password" name="password-area" requered>
     </form>
 
+    <section class = "container-form"
+    <form class = "form-login flex-direction">
+      <p id="msgErro"></p>
+      <input type="email" placeholder="seu@email.com" class="email-area" id="email" name="email-area" requered>
+      <input type="password" placeholder="Senha" class="pwd-area" id="password" name="password-area" requered>
+    </form>
     <section class="botao-entrar">
     <button class=""btn-sign-in" font-size" id="btn-sign-in">Entrar</button>
     <button class="btn-recover-password font-size" id="btn-recover-password">Esqueci minha senha</button> 
     </section>
-
     <p class="error text-center font-size" id="user-error"></p> 
       <p class="error text-center font-size" id = "user-error-gmail"></p>
      
@@ -25,10 +30,6 @@ export default () => {
         <button class="btn-google text-center font-size" id="btn-google"><img src="" alt="btn-google" class="">Sign in with Google</button>
       </section>
       <p class="font-size text-center">
-        Ainda não tem conta? <a href="#cadastro" id="click-register">Cadastre-se</a>
-      </p>
-    </section>
-
   <footer class="header-desktop">
     <a href="#about">Sobre Guest star Supernova</a>
   </footer>
